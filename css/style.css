@@ -1,0 +1,45 @@
+:root{
+  --dark-blue: #06131F;
+  --back-card-blue: #112030;
+  --background-color: #1D2D3C;
+}
+
+.debug{
+  border: 1px solid firebrick;
+}
+
+html body{
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.navbar{
+  background: var(--dark-blue);
+  height: 100px;
+}
+
+.navbar img{
+  max-height: 60px;
+}
+
+main{
+  padding: 2rem 0;
+}
+
+.my-card{
+  padding: 3rem;
+  background-color: var(--back-card-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  max-height: 500px;
+}
+
+.my-card img{
+  max-height: 250px;
+  aspect-ratio: 1/1;
+  margin-bottom: 1rem;
+}
